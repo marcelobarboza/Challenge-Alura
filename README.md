@@ -27,7 +27,7 @@ Um botão que copie o texto criptografado/descriptografado para a área de trans
 #Como Executar
 
 Clone este repositório:
-git clone https://github.com/seu-usuario/Challenge-Alura.git
+https://github.com/marcelobarboza/Challenge-Alura
 Abra o arquivo index.html em seu navegador web.
 
 #Créditos
