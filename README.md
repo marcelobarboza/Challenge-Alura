@@ -12,7 +12,7 @@ A letra "a" é convertida para "ai"
 A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 
-# Requisitos:
+# Requisitos
 
 Deve funcionar apenas com letras minúsculas.
 Não devem ser utilizados letras com acentos nem caracteres especiais.
@@ -21,7 +21,7 @@ Funcionalidades:
 A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, com opção para escolher entre as duas operações.
 O resultado deve ser exibido na tela.
 
-# Extras:
+# Extras
 
 Um botão que copie o texto criptografado/descriptografado para a área de transferência.
 
