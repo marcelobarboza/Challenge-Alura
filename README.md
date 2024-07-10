@@ -32,5 +32,5 @@ https://github.com/marcelobarboza/Challenge-Alura
 
 Abra o arquivo index.html em seu navegador web.
 
-#Créditos
-Este projeto foi desenvolvido como parte do desafio do curso da Alura.
+# Créditos
+Este projeto foi desenvolvido como parte do desafio do curso da Alura em parceria com a ONE.
