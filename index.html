@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Secret Word</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar__container">
+      <h1 class="navbar__titulo">Secret Word</h1>
+    </nav>
+  </header>
+
+  <section class="input__container">
+    <h2 class="input__titulo">Codefique ou decodifique seu texto aqui!</h2>
+    <div class="textareas__wrapper">
+      <textarea id="input__entrada" placeholder="Digite seu texto."></textarea>
+      <textarea id="input__saida" readonly></textarea>
+    </div>
+  </section>
+
+  <section class="botoes__principais">
+    <button id="botao__criptografar" onclick="criptografaTexto()">
+      Criptografar
+    </button>
+    <button id="botao__descriptografar" onclick="descriptografaTexto()">
+      Descriptografar
+    </button>
+  </section>
+
+  <section class="botoes__secundarios">
+    <button id="botao__copiar" onclick="copiaTexto()">Copiar</button>
+    <button id="botao__apagar" onclick="limpaCampos()">Apagar</button>
+  </section>
+
+  <section class="aviso__container">
+    <p id="aviso__texto">
+      Apenas letras minúsculas e sem acentos
+    </p>
+  </section>
+
+  <script src="Criptografar.js"></script>
+  <script src="Descriptografar.js"></script>
+  <script src="Copiar.js"></script>
+  <script src="Limpar.js"></script>
+</body>
+
+</html>
